@@ -1555,6 +1555,8 @@ hr {
 .service img {
     width: 100%;
     transition: all 0.5s ease 0s;
+    height: 300px;
+
 }
 
 .service .service-content-wrap {
