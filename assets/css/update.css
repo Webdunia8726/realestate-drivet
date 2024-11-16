@@ -1,0 +1,54 @@
+
+.service-section {
+    background-color: #f5f5f5;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+.btn-primary {
+    background-color: #D87A56;
+    border-color: #D87A56;
+}
+
+img.img-fluid {
+    max-width: 100%;
+}
+
+
+/* interior */
+.service-section.interior-design {
+    background-color: #f0f4f8;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+.btn-success {
+    background-color: #4A776D;
+    border-color: #4A776D;
+}
+
+img.img-fluid {
+    max-width: 100%;
+}
+
+
+.service-section.construction {
+    background-color: #ececec;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+.btn-dark {
+    background-color: #2B4F60;
+    border-color: #2B4F60;
+}
+
+img.img-fluid {
+    max-width: 100%;
+}
