@@ -127,3 +127,29 @@ img.img-fluid {
         height: 600px;
     }
 }
+
+.fixed-button {
+    position: fixed;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #25D366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 5000;
+}
+
+.whatsapp-button {
+    left: 20px;
+    bottom: 80px;
+}
+
+.call-button {
+    left: 20px;
+    background-color: #0A74DA;
+}

@@ -237,3 +237,23 @@ India</span>
     }
   });
  
+
+  document.addEventListener("DOMContentLoaded", function () {
+    var CallContainer = document.querySelector(".call-button");
+    if (CallContainer) {
+      CallContainer.innerHTML = `  
+      <!-- Fixed WhatsApp and Call Buttons -->
+<div class="fixed-button whatsapp-button">
+    <a href="https://wa.me/your-number" target="_blank" style="color: inherit; text-decoration: none;">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</div>
+
+<div class="fixed-button call-button">
+    <a href="tel:your-number" style="color: inherit; text-decoration: none;">
+        <i class="fas fa-phone"></i>
+    </a>
+</div> `;
+    }
+  });
+ 
