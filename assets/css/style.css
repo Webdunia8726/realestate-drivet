@@ -37,6 +37,15 @@ body {
     height: 100%;
 }
 
+.logo img{
+    width: 90px;
+    height: 60px;
+}
+.footer-logo img{
+    width: 150px;
+    height: 100px;
+}
+
 body {
     font-family: "Roboto Condensed", sans-serif, Arial, Helvetica, sans-serif;
     font-size: 1rem;
@@ -951,10 +960,10 @@ hr {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header-area {
-        padding: 25px 0;
+        padding: 0px;
     }
     .header-area.stick {
-        padding: 20px 0;
+        padding: 0px;
     }
 }
 

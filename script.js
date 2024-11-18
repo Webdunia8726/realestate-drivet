@@ -162,9 +162,9 @@ document.addEventListener("DOMContentLoaded", function () {
                             </div>
                             <p>Your trusted partner in construction and development.</p>
                             <div class="social-icon-style">
-                                <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
-                                <a class="twitter" href="#"><i class="fa fa-instagram"></i></a>
-                                <a class="google-plus" href="#"><i class="fa fa-youtube"></i></a>
+                                <a class="facebook" href="#"><i class="fab fa-facebook"></i></a>
+                                <a class="twitter" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="google-plus" href="#"><i class="fab fa-youtube"></i></a>
                             </div>
                         </div>
                     </div>
@@ -244,13 +244,13 @@ India</span>
       CallContainer.innerHTML = `  
       <!-- Fixed WhatsApp and Call Buttons -->
 <div class="fixed-button whatsapp-button">
-    <a href="https://wa.me/your-number" target="_blank" style="color: inherit; text-decoration: none;">
+    <a href="https://wa.link/x0a6fg" target="_blank" style="color: inherit; text-decoration: none;">
         <i class="fab fa-whatsapp"></i>
     </a>
 </div>
 
 <div class="fixed-button call-button">
-    <a href="tel:your-number" style="color: inherit; text-decoration: none;">
+    <a href="tel:+91 9652631186" style="color: inherit; text-decoration: none;">
         <i class="fas fa-phone"></i>
     </a>
 </div> `;
