@@ -165,7 +165,7 @@ h1, p {
 }
 
 
-
+/* Default Styles */
 .lifestyle-section {
     padding: 50px 15px;
     background-color: #f9f9f9;
@@ -173,7 +173,10 @@ h1, p {
 
 .lifestyle-section img {
     border-radius: 10px;
-    height: 500px;
+    height: 50%; /* Ensures the image height adapts to the container */
+    max-width: 70%; /* Prevents the image from overflowing horizontally */
+    object-fit: cover; /* Ensures the image scales nicely without stretching */
+    width: 100%; /* Ensures the image fits the container width */
 }
 
 .lifestyle-section h2 {
@@ -201,10 +204,9 @@ h1, p {
     background-color: #4d7abe;
 }
 
-
 .special-section {
     padding: 60px 15px;
-    background-color:rgba(70, 79, 75, 1);
+    background-color: rgba(70, 79, 75, 1);
     text-align: center;
 }
 
@@ -220,6 +222,121 @@ h1, p {
     color: white;
     max-width: 800px;
     margin: 0 auto;
+}
+
+/* Media Queries */
+
+/* For screens smaller than 768px (Tablets and Mobile Portrait) */
+@media (max-width: 768px) {
+    .lifestyle-section h2 {
+        font-size: 2rem; /* Smaller font for titles on mobile/tablets */
+    }
+
+    .lifestyle-section p {
+        font-size: 1rem; /* Adjust paragraph text size */
+    }
+
+    .special-section h2 {
+        font-size: 2rem; /* Smaller heading */
+    }
+    .lifestyle-section img {
+        border-radius: 10px;
+        height: 100%; /* Ensures the image height adapts to the container */
+        max-width: 100%; /* Prevents the image from overflowing horizontally */
+        object-fit: cover; /* Ensures the image scales nicely without stretching */
+        width: 100%; /* Ensures the image fits the container width */
+    }
+    
+    .special-section p {
+        font-size: 1rem; /* Adjust paragraph text size */
+        max-width: 100%; /* Ensures text width adapts to screen size */
+        margin: 0 10px; /* Adds some padding to the sides */
+    }
+}
+
+/* For screens smaller than 480px (Mobile Devices in Portrait Mode) */
+@media (max-width: 480px) {
+    .lifestyle-section {
+        padding: 40px 10px; /* Reduce padding for smaller screens */
+    }
+
+    .lifestyle-section h2 {
+        font-size: 1.75rem; /* Even smaller font size for smaller screens */
+    }
+
+    .lifestyle-section img {
+        border-radius: 10px;
+        height: 100%; /* Ensures the image height adapts to the container */
+        max-width: 100%; /* Prevents the image from overflowing horizontally */
+        object-fit: cover; /* Ensures the image scales nicely without stretching */
+        width: 100%; /* Ensures the image fits the container width */
+    }
+    
+    .lifestyle-section p {
+        font-size: 0.9rem; /* Adjust paragraph text size */
+    }
+
+    .special-section {
+        padding: 40px 10px; /* Reduce padding on smaller screens */
+    }
+
+    .special-section h2 {
+        font-size: 1.8rem; /* Adjust heading size */
+    }
+
+    .special-section p {
+        font-size: 0.9rem; /* Adjust paragraph text size */
+        max-width: 100%; /* Ensures text width fits screen */
+        margin: 0 10px; /* Adds side margin */
+    }
+}
+
+/* For larger screens (Laptop/Tablet Landscape) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .lifestyle-section {
+        padding: 50px 30px; /* Adjust padding for larger tablets and small desktops */
+    }
+
+    .lifestyle-section h2 {
+        font-size: 2.25rem; /* Slightly larger font size for medium screens */
+    }
+
+    .lifestyle-section p {
+        font-size: 1.1rem; /* Adjust text for medium screens */
+    }
+
+    .special-section h2 {
+        font-size: 2.2rem; /* Adjust heading size */
+    }
+
+    .special-section p {
+        font-size: 1.1rem; /* Adjust paragraph text size */
+        max-width: 90%; /* Allow text width to be slightly wider */
+    }
+}
+
+/* For large screens (Desktop) */
+@media (min-width: 1025px) {
+    .lifestyle-section {
+        padding: 50px 40px; /* Keep larger padding for bigger screens */
+    }
+
+    .lifestyle-section h2 {
+        font-size: 2.5rem; /* Default size for larger screens */
+    }
+
+    .lifestyle-section p {
+        font-size: 1.2rem; /* Default font size */
+    }
+
+    .special-section h2 {
+        font-size: 2.5rem; /* Larger heading for large screens */
+    }
+
+    .special-section p {
+        font-size: 1.2rem; /* Default font size */
+        max-width: 800px; /* Limit text width */
+    }
 }
 
 
@@ -635,3 +752,7 @@ h1, p {
 .form-section form button:hover {
     background-color: #004d00;
 }
+
+
+
+
