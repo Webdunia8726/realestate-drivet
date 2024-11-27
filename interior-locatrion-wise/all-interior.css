@@ -1,0 +1,35 @@
+/* Hero Section */
+.hero {
+    margin-top: 86px;
+    background: linear-gradient(rgba(66, 65, 65, 0.6), rgba(0, 0, 0, 0.6)),
+                url('/assets/images/newimg/interior.jpg') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+/* Sections */
+.content-section {
+    padding: 50px 0;
+}
+.content-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.content-section p {
+    font-size: 1rem;
+    color: #555;
+}
+.content-img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}

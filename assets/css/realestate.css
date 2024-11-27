@@ -756,3 +756,27 @@ h1, p {
 
 
 
+
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* Ensures no gap between dropdown and parent link */
+}
+
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a:hover {
+    text-decoration: underline !important;
+    color: #C35F31 !important;
+}
+
+footer .fas, footer .fab {
+    transition: color 0.3s;
+}
+
+footer .fas:hover, footer .fab:hover {
+    color: #C35F31;
+}
