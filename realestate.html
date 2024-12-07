@@ -35,7 +35,7 @@
                             REALESTATE
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="realestateDropdown">
-                            <li><a class="dropdown-item" href="/realestate-location-wise/realestate-location.html">Near Me Plots</a></li>
+                            <li><a class="dropdown-item" href="/realestate-location-wise/realestate-location.html">REALESTATE NEAR ME</a></li>
                         </ul>
                     </li>
     
@@ -45,7 +45,7 @@
                             INTERIOR
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="interiorDropdown">
-                            <li><a class="dropdown-item" href="interior-design.html">Interior Design</a></li>
+                            <li><a class="dropdown-item" href="interior-design.html">INTERIOR NEAR ME</a></li>
                         </ul>
                     </li>
     
@@ -55,7 +55,7 @@
                             CONSTRUCTION
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="constructionDropdown">
-                            <li><a class="dropdown-item" href="construction-interior.html">Interior Design</a></li>
+                            <li><a class="dropdown-item" href="construction-interior.html">CONSTRUCTION NEAR ME</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -74,7 +74,7 @@
                         <h1>Premium Gated Farmlands in Tangedapalle, Shankarpally</h1>
                         <p>Just 5 Mins from RRR</p>
                         <p><strong>20+ Acres | Farmlands - 1/4, 1/2, and 1 Acre</strong></p>
-                        <form action="#" method="POST">
+                        <form action="realestate-form.php" method="POST">
                             <div class="mb-3">
                                 <input type="text" class="form-control" name="fullname" placeholder="Full Name *" required>
                             </div>
@@ -112,7 +112,7 @@
                 id="video-frame" 
                 src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" 
                 title="Vaayu Virtual Tour"
-                allow="autoplay; encrypted-media"
+                allow="; encrypted-media"
                 allowfullscreen>
             </iframe>
         </div>
@@ -407,6 +407,7 @@
 
 
 <section class="discovery-section">
+    <h2 class="text-center">Contact Us</h2>
     <div class="container">
         <div class="row discovery-container">
             <!-- Address Section -->
@@ -431,21 +432,20 @@
 
             <!-- Form Section -->
             <div class="col-md-6 form-section">
-                <form>
-                    <div class="mb-3">
-                        <label for="fullName" class="form-label">Name*</label>
-                        <input type="text" class="form-control" id="fullName" placeholder="Full Name" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Email*</label>
-                        <input type="email" class="form-control" id="email" placeholder="Email" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="phone" class="form-label">Phone*</label>
-                        <input type="text" class="form-control" id="phone" placeholder="Phone" required>
-                    </div>
-                    <button type="submit" class="btn">Submit</button>
-                </form>
+                <form action="realestate-form.php" method="POST">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" name="fullname" placeholder="Full Name *" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" name="email" placeholder="Email *" required>
+                            </div>
+                            <div class="mb-3">
+                                <div class="input-group">
+                                    <input type="tel" class="form-control" name="phone" placeholder="Phone Number *" required>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-submit">Submit</button>
+                        </form>
             </div>
         </div>
     </div>
@@ -502,5 +502,9 @@
         });
     });
 </script>
+
+
+
+
   </body>
 </html>

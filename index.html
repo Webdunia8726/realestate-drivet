@@ -431,6 +431,62 @@
     </section>
     
 
+    <div class="container">
+        <div class="row contact-container">
+            <!-- Left Side: "Have a Question" Section -->
+            <div class="col-md-5 left-section">
+                <h2>Have a Question?</h2>
+                <p>
+                    Need help with interior, real estate, or construction services? 
+                    Contact us anytime—we're here to assist you with top-notch solutions.
+                </p>
+                <p><strong>Email:</strong> <a href="mailto:info@yourcompany.com">info@yourcompany.com</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+919876543210">+91 9876543210</a></p>
+                <div class="social-icons">
+                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+    
+            <!-- Right Side: Contact Form -->
+            <div class="col-md-7">
+                <h2>Contact Us</h2>
+                <form action="submit_form.php" method="POST">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter your phone number" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="service" class="form-label">Select Service</label>
+                        <select class="form-select" id="service" name="service" required>
+                            <option value="">Select a Service</option>
+                            <option value="Interior">Interior Design</option>
+                            <option value="Real Estate">Real Estate</option>
+                            <option value="Construction">Construction</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Your Requirements</label>
+                        <textarea class="form-control" id="message" name="message" rows="4" placeholder="Describe your requirements..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-hover-dark animated">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+
+    
     <!-- Working Process area -->
     <div class="section section-padding bg-img overly-style-1 opacity-point-7" style="background-image:url(assets/images/bg/bg-1.jpg)">
         <div class="container">
@@ -705,8 +761,53 @@
     </div>
 </section>
     
-<div class="footer-bottom"></div>
+<footer class="bg-dark text-white pt-5 pb-4">
+    <div class="container">
+        <div class="row">
 
+            <!-- Branding Section -->
+            <div class="col-md-4 mb-4">
+                <h5 class="text-uppercase fw-bold mb-3 text-white">BuildIt New</h5>
+                <p class="text-white" >Building dreams with excellence. Explore premium real estate, interior designs, and construction services that redefine luxury and quality.</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-md-2 mb-4">
+                <h5 class="text-uppercase fw-bold mb-3 text-white">Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="index.html" class="text-light text-decoration-none">Home</a></li>
+                    <li><a href="realestate.html" class="text-light text-decoration-none">Real Estate</a></li>
+                    <li><a href="interior.html" class="text-light text-decoration-none">Interior</a></li>
+                    <li><a href="construction/construction.html" class="text-light text-decoration-none">Construction</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="col-md-3 mb-4 ">
+                <h5 class="text-uppercase fw-bold mb-3 text-white">Contact Us</h5>
+                <p class="text-white"><i class="fas fa-phone-alt me-2 text-white"></i>+91 958 756 99 99</p>
+                <p class="text-white"><i class="fas fa-envelope me-2 text-white"></i>halconinfra@gmail.com</p>
+                <p class="text-white"><i class="fas fa-map-marker-alt me-2 text-white"></i>Tangedapalle, Shankarpally</p>
+            </div>
+
+            <!-- Social Media Links -->
+            <div class="col-md-3 mb-4">
+                <h5 class="text-uppercase fw-bold mb-3 text-white">Follow Us</h5>
+                <div class="d-flex">
+                    <a href="#" class="text-light fs-5 me-3"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="text-light fs-5 me-3"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-light fs-5 me-3"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-light fs-5"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copyright Section -->
+    <div class="bg-secondary text-center py-3 mt-4">
+        <p class="mb-0 text-white">© 2024 BuildIt New. All Rights Reserved. Designed with ❤️ by [Your Name].</p>
+    </div>
+</footer>
 <div class="call-button"></div>
 
     <!-- JS Vendor, Plugins & Activation Script Files -->

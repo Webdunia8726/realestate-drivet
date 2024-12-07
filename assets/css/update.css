@@ -153,3 +153,52 @@ img.img-fluid {
     left: 20px;
     background-color: #0A74DA;
 }
+
+
+
+.contact-container {
+    border-radius: 8px;
+    margin: 40px auto;
+    padding: 20px;
+}
+.contact-container i{
+    color: #ea622b !important;
+}
+.left-section {
+    color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+}
+.left-section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.left-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+.left-section a {
+    text-decoration: none;
+}
+.left-section a:hover {
+    text-decoration: underline;
+}
+.social-icons a {
+    font-size: 20px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+.social-icons a:hover {
+    color: #d1d1d1;
+}
+.btn-custom {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+.btn-custom:hover {
+    background-color: #0056b3;
+}
